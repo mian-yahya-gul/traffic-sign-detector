@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.db
+annotated_output.mp4
+.gradio/
+flagged/
+*.ipynb_checkpoints
+.vscode/
+venv/
+traffic_venv/
