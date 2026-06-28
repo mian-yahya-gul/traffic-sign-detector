@@ -1,15 +1,4 @@
----
-title: Traffic Sign Detection
-emoji: 🚦
-colorFrom: blue
-colorTo: red
-sdk: gradio
-sdk_version: 4.44.1
-python_version: "3.11"
-app_file: app.py
-pinned: false
-license: mit
----
+
 
 # 🚦 Automated Traffic Sign Detection & Recognition
 
