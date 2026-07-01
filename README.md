@@ -2,22 +2,22 @@
 
 # 🚦 Automated Traffic Sign Detection & Recognition
 
-A real-time traffic sign detection and classification system built with **YOLOv8** via transfer learning, deployed as an interactive web demo — no installation required to try it.
+A real time traffic sign detection and classification system built with **YOLOv8** via transfer learning, deployed as an interactive web demo no installation required to try it.
 
 **🔗 https://huggingface.co/spaces/yahyagul/traffic-sign-detector  (live Demo)
 
 ## Use Case
 
 Traffic sign recognition is a foundational perception task for:
-- **Driver-assistance systems (ADAS)** — alerting drivers to speed limits, stop signs, and warnings in real time
-- **Dashcam footage auditing** — automatically flagging missed or obscured signage for road safety compliance reviews
-- **Autonomous vehicle perception pipelines** — as a building-block detection module feeding into higher level driving decisions
+- **Driver-assistance systems (ADAS)** : alerting drivers to speed limits, stop signs, and warnings in real time
+- **Dashcam footage auditing** : automatically flagging missed or obscured signage for road safety compliance reviews
+- **Autonomous vehicle perception pipelines** : as a building block detection module feeding into higher level driving decisions
 
-This project demonstrates the full pipeline from a trained model to a usable, public facing tool — not just a notebook.
+This project demonstrates the full pipeline from a trained model to a usable, public facing tool not just a notebook.
 
 ## How it works
 
-1. A YOLOv8 model was fine-tuned via transfer learning on a traffic sign dataset
+1. A YOLOv8 model was fine tuned via transfer learning on a traffic sign dataset
 2. The trained weights (`best_roboflow.pt`) power a Gradio web interface
 3. Users upload an image or video; the app runs inference and returns annotated output with bounding boxes, class labels, and confidence scores
 4. Both single image and frame by frame video processing are supported
@@ -41,7 +41,7 @@ Open the local URL Gradio prints (usually `http://127.0.0.1:7860`).
 
 The trained YOLOv8 weights are hosted separately due to file size:
 - **Hugging Face Spaces deployment:** the model is uploaded directly to the Space's file storage
-- **Local use:** download the model from [link to be added] and place it in the project root as `best_roboflow.pt`
+- **Local use:** download the model from https://huggingface.co/yahyagul/traffic-sign-yolov8/edit/main/README.md and place it in the project root as `best_roboflow.pt`
 
 ## Deploying your own copy
 
